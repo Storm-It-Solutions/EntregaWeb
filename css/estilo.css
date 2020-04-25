@@ -2,7 +2,7 @@ body{
     background-color: #333333;
     margin: 0 auto;
     margin-bottom: 0px;
-    font-family: 'Helvetica Neue', "Helvetica";
+    font-family: 'Helvetica Neue', "Helvetica", sans-serif;
 }
 #container{
     margin: 0 auto;
@@ -129,5 +129,7 @@ a{
 .cartazes{
     float: end ;
     box-sizing: border-box;
-    margin-bottom: 5%;
+    margin-left:6% ;
+    margin-bottom: 20%;
+    clear: left;
 }
