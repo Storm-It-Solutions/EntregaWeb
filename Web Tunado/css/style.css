@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: Verdana, sans-serif;
+  background-image: linear-gradient(0deg,#ff0000 20%,#000000 90%);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+}
+
+.cabecalho{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  font-size: 40px;
+  width: 100%;
+  position: relative;
+}
+.cabecalho ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.cabecalho ul li{
+  list-style: none;
+  display: inline;
+  margin: 0px 2px;
+  padding: 0 25px;
+  flex-basis: auto;
+}
+
+a:HOVER{
+  background-color: #c1b337;
+}
+.corpo{
+  padding: 5% 1% 5% 1%;
+  margin: 1% 1.5% 1% 1.5%;
+  width: 100%;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.corpo figure{
+  display: inline-block;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px #000000;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+
+}
+.corpo figure figcaption{
+  position: absolute;
+}
+.rodape{
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+
+.img-info{
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.img-ryan {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-banner {
+    display: block;
+     width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .container {
+    width: 600px;
+    margin: 0 auto;
+
+  }
+  .corpo{
+    padding: 5% 1% 5% 1%;
+    margin: 1% 1.5% 1% 1.5%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .img-info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px;
+  }
+  .img-ryan {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+
+  .img-info{
+    width: 50%;
+    float: right;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-ryan {
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+  }
+}
